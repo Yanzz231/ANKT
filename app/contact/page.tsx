@@ -57,7 +57,7 @@ const faqItems = [
   {
     question: "Apakah ada garansi untuk produk bekas?",
     answer:
-      "Ya, kami memberikan garansi 7 hari untuk semua produk. Jika ada masalah dengan produk, Anda dapat mengembalikannya dalam kondisi yang sama.",
+      "Karena semua produk kami adalah barang bekas, kami tidak memberikan garansi. Namun, setiap produk telah melalui proses quality control yang ketat untuk memastikan kondisi dan fungsi yang baik sebelum dijual.",
   },
   {
     question: "Bagaimana cara menjual barang di ANKT?",
@@ -362,7 +362,7 @@ export default function ContactPage() {
                 <li>
                   <Link
                     href="/products?category=stroller"
-                    className="hover:text-white transition-colors"
+                    
                   >
                     Stroller & Kereta
                   </Link>
@@ -370,7 +370,7 @@ export default function ContactPage() {
                 <li>
                   <Link
                     href="/products?category=car-seat"
-                    className="hover:text-white transition-colors"
+                    
                   >
                     Car Seat
                   </Link>
@@ -378,7 +378,7 @@ export default function ContactPage() {
                 <li>
                   <Link
                     href="/products?category=feeding"
-                    className="hover:text-white transition-colors"
+                    
                   >
                     Feeding
                   </Link>
@@ -386,7 +386,7 @@ export default function ContactPage() {
                 <li>
                   <Link
                     href="/products?category=toys"
-                    className="hover:text-white transition-colors"
+                    
                   >
                     Mainan
                   </Link>
@@ -398,17 +398,17 @@ export default function ContactPage() {
               <h4 className="font-semibold mb-4">Layanan</h4>
               <ul className="space-y-2 text-stone-800">
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="#" >
                     Pengiriman
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="#" >
                     Garansi
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="#" >
                     Customer Service
                   </Link>
                 </li>

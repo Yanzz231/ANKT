@@ -48,7 +48,7 @@ export default function Navbar() {
             <Image src="/logo.png" alt="ANKT Logo" width={50} height={50} className="rounded-lg" />
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold text-emerald-800">ANKT</h1>
-              <p className="text-xs text-stone-600">Perlengkapan Bayi Berkualitas</p>
+              <p className="text-xs text-stone-600">Perlengkapan dan Peralatan Bayi Berkualitas</p>
             </div>
           </Link>
 

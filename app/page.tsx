@@ -181,7 +181,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-up">
               <h2 className="text-4xl md:text-5xl font-bold text-stone-800 mb-6 leading-tight">
-                Perlengkapan Bayi <span className="text-emerald-700">Berkualitas</span> dengan Harga Terjangkau
+                Perlengkapan dan Peralatan Bayi Bekas <span className="text-emerald-700">Berkualitas</span> dengan Harga Terjangkau
               </h2>
               <p className="text-xl text-stone-600 mb-8 leading-relaxed">
                 Temukan perlengkapan bayi bekas berkualitas tinggi dengan harga ekonomis. Mendukung gaya hidup
@@ -199,7 +199,7 @@ export default function HomePage() {
                   asChild
                   size="lg"
                   variant="outline"
-                  className="bg-emerald-700 hover:bg-emerald-800 text-white px-8 py-3 transform hover:scale-105 transition-all"
+                  className="bg-emerald-700 hover:bg-emerald-800 hover:text-white text-white px-8 py-3 transform hover:scale-105 transition-all"
                 >
                   <Link href="/about">Pelajari Lebih Lanjut</Link>
                 </Button>
@@ -441,22 +441,22 @@ export default function HomePage() {
               <h4 className="font-semibold mb-4">Produk</h4>
               <ul className="space-y-2 text-stone-800">
                 <li>
-                  <Link href="/products?category=stroller" className="hover:text-white transition-colors">
+                  <Link href="/products?category=stroller">
                     Stroller & Kereta
                   </Link>
                 </li>
                 <li>
-                  <Link href="/products?category=car-seat" className="hover:text-white transition-colors">
+                  <Link href="/products?category=car-seat" >
                     Car Seat
                   </Link>
                 </li>
                 <li>
-                  <Link href="/products?category=feeding" className="hover:text-white transition-colors">
+                  <Link href="/products?category=feeding" >
                     Feeding
                   </Link>
                 </li>
                 <li>
-                  <Link href="/products?category=toys" className="hover:text-white transition-colors">
+                  <Link href="/products?category=toys" >
                     Mainan
                   </Link>
                 </li>
@@ -467,17 +467,17 @@ export default function HomePage() {
               <h4 className="font-semibold mb-4">Layanan</h4>
               <ul className="space-y-2 text-stone-800">
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="#" >
                     Pengiriman
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="#" >
                     Garansi
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="#" >
                     Customer Service
                   </Link>
                 </li>

@@ -21,9 +21,9 @@ const values = [
   },
   {
     icon: Users,
-    title: "Komunitas Terpercaya",
+    title: "Pelayanan Terpercaya",
     description:
-      "Membangun komunitas ibu-ibu yang saling mendukung dalam mengasuh anak dengan bijak.",
+      "Memberikan layanan yang responsif dan profesional dalam setiap transaksi jual beli perlengkapan bayi bekas.",
   },
   {
     icon: Heart,
@@ -85,11 +85,14 @@ export default function AboutPage() {
                 Tentang <span className="text-emerald-700">ANKT</span>
               </h1>
               <p className="text-xl text-stone-600 mb-8 leading-relaxed">
-                ANKT adalah marketplace terpercaya yang menghadirkan
-                perlengkapan bayi bekas berkualitas tinggi dengan harga
-                terjangkau. Kami percaya bahwa setiap keluarga berhak
-                mendapatkan produk terbaik untuk si kecil tanpa harus menguras
-                kantong.
+                ANKT adalah marketplace terpercaya yang khusus menyediakan
+                perlengkapan dan peralatan bayi bekas berkualitas dengan harga
+                terjangkau. Kami fokus pada barang-barang preloved yang masih
+                layak pakai dan telah melalui seleksi ketat untuk memastikan
+                kualitasnya. Dengan membeli produk bekas berkualitas di ANKT,
+                setiap keluarga dapat memperoleh perlengkapan terbaik untuk si
+                kecil tanpa harus mengeluarkan budget besar, sekaligus turut
+                mendukung konsep ramah lingkungan.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
@@ -125,10 +128,15 @@ export default function AboutPage() {
               Misi Kami
             </h2>
             <p className="text-stone-600 max-w-3xl mx-auto text-lg">
-              Menjadi platform terdepan dalam menyediakan perlengkapan bayi
-              bekas berkualitas, mendukung gaya hidup berkelanjutan, dan
-              membantu keluarga Indonesia menghemat pengeluaran tanpa
-              mengorbankan kualitas.
+              Misi kami adalah menyediakan platform yang aman dan terpercaya
+              bagi para ibu untuk menjual dan membeli peralatan serta
+              perlengkapan bayi bekas yang masih layak pakai. Kami berkomitmen
+              membantu para ibu memenuhi kebutuhan si kecil secara hemat melalui
+              akses ke produk bekas berkualitas tinggi. Lebih dari itu, ANKT
+              turut berperan dalam mengurangi limbah pabrik dan dampak
+              lingkungan dengan mendorong penggunaan kembali peralatan dan
+              perlengkapan bayi, sehingga menciptakan ekosistem yang
+              berkelanjutan dan ramah lingkungan bagi generasi mendatang.
             </p>
           </div>
 
@@ -320,36 +328,18 @@ export default function AboutPage() {
               <h4 className="font-semibold mb-4">Produk</h4>
               <ul className="space-y-2 text-stone-800">
                 <li>
-                  <Link
-                    href="/products?category=stroller"
-                    className="hover:text-white transition-colors"
-                  >
+                  <Link href="/products?category=stroller">
                     Stroller & Kereta
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href="/products?category=car-seat"
-                    className="hover:text-white transition-colors"
-                  >
-                    Car Seat
-                  </Link>
+                  <Link href="/products?category=car-seat">Car Seat</Link>
                 </li>
                 <li>
-                  <Link
-                    href="/products?category=feeding"
-                    className="hover:text-white transition-colors"
-                  >
-                    Feeding
-                  </Link>
+                  <Link href="/products?category=feeding">Feeding</Link>
                 </li>
                 <li>
-                  <Link
-                    href="/products?category=toys"
-                    className="hover:text-white transition-colors"
-                  >
-                    Mainan
-                  </Link>
+                  <Link href="/products?category=toys">Mainan</Link>
                 </li>
               </ul>
             </div>
@@ -358,19 +348,13 @@ export default function AboutPage() {
               <h4 className="font-semibold mb-4">Layanan</h4>
               <ul className="space-y-2 text-stone-800">
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
-                    Pengiriman
-                  </Link>
+                  <Link href="#">Pengiriman</Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
-                    Garansi
-                  </Link>
+                  <Link href="#">Garansi</Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
-                    Customer Service
-                  </Link>
+                  <Link href="#">Customer Service</Link>
                 </li>
               </ul>
             </div>
